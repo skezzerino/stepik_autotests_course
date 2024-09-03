@@ -1,8 +1,6 @@
-s = 'My Name is Julia'
+def test_abs1():
+    assert abs(-42) == 42, "Should be absolute value of a number"
 
-if 'Name' in s:
-    print('Substring found')
-
-index = s.find('Name')
-if index != -1:
-    print(f'Substring found at index {index}')
+if __name__ == "__main__":
+    test_abs1()
+    print("All tests passed!")
