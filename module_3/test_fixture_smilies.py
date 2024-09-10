@@ -1,4 +1,5 @@
 import pytest
+import sys
 
 
 @pytest.fixture(scope="class")
